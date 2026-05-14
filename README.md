@@ -33,3 +33,13 @@ When training frontier AI models, the quality of human preference data directly 
 ---
 
 ## 📂 Project Structure
+rlhf-eval-toolkit/
+├── src/
+│   ├── validators/         # Preference ranking validation logic
+│   ├── agreement/          # IRA computation (Kappa, Alpha, custom)
+│   ├── scoring/            # Annotation consistency scoring
+│   └── reports/            # HTML + JSON report generation
+├── tests/                  # Unit and integration tests
+├── examples/               # Sample datasets and usage notebooks
+├── notebooks/              # Jupyter analysis notebooks
+└── README.md
